@@ -38,7 +38,7 @@ $(document).ready(function () {
 				$(".jumbotron").attr("style", "margin-bottom:30px;");
 			}
 			$("#about").attr("style", "margin-bottom: 360px;");
-			$("#works").attr("style", "margin-bottom: 460px;");
+			//$("#works").attr("style", "margin-bottom: 460px;");
 		}else if(docWidth >= 768){
 			if (docHeight > 700){
 				marginBottom = (20 + docHeight - 700);
@@ -46,10 +46,10 @@ $(document).ready(function () {
 			}else{
 				$(".jumbotron").attr("style", "margin-bottom:30px;");
 			}
-			$("#about, #works").attr("style", "margin-bottom:150px; margin-top:30px;");
+			$("#about").attr("style", "margin-bottom:150px; margin-top:30px;");
 		}else{
 			$(".jumbotron").attr("style", "margin-bottom:30px; margin-top:0px;");
-			$("#about, #works").attr("style", "margin-bottom:10px; margin-top:10px;");
+			$("#about").attr("style", "margin-bottom:10px; margin-top:10px;");
 		}
 	}
 });
