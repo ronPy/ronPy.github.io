@@ -10,11 +10,11 @@ body {
   padding-top: 70px;
   background:url("../images/bg.png") top left repeat;
 }
-a:visited, a:active, a:link {
+p a:visited, p a:active, p a:link {
 	color:#D44700;
 	text-decoration:underline;
 }
-a:hover {
+p a:hover {
 	color:#FA5300;
 }
 footer {
@@ -154,8 +154,9 @@ footer {
 }
 
 #main-content .section {
-	margin:20px 0px;
+	margin:30px 0px;
 	background-color:#eee;
+	border-radius: 15px;
 }
 #main-content .section h1 {
 	color:#C15E00;
@@ -165,7 +166,13 @@ footer {
 #works {
 	min-height:300px;
 	background-color:#fff;
-	border-radius: 15px;
+}
+#thats-all {
+	font-size:16px;	
+	text-align:center;
+}
+#thats-all p {
+	margin:20px 0px;
 }
 #main-content #knowledge {
 	margin-bottom:50px;
