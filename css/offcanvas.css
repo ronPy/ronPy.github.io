@@ -10,7 +10,7 @@ body {
   padding-top: 70px;
   background:url("../images/bg.png") top left repeat;
 }
-p a:visited, p a:active, p a:link {
+.section a:visited, .section a:active, .section a:link {
 	color:#D44700;
 	text-decoration:underline;
 }
