@@ -17,7 +17,9 @@ $(document).ready(function () {
 		$("#my-tools").attr("style", "");
       }else{ 		  
 		$("#home-menu").show('fast');
-		$(".navbar-fixed-top").removeClass("big");
+		if ($(window).width() >= 768){
+			$(".navbar-fixed-top").removeClass("big");
+		}
 		$("#my-tools").attr("style", "position:fixed; top: 60px; right: 0px;");
       }
     });
