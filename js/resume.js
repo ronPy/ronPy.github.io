@@ -15,12 +15,10 @@ $(document).ready(function () {
 		$("#home-menu").hide("fast");
 		$(".navbar-fixed-top").addClass("big");
 		$("#my-tools").attr("style", "");
-		$("p.navbar-brand").attr("style", "transform:rotateX(0deg);-ms-transform:rotateX(0deg);-webkit-transform:rotateX(0deg);");
       }else{ 		  
 		$("#home-menu").show('fast');
 		$(".navbar-fixed-top").removeClass("big");
 		$("#my-tools").attr("style", "position:fixed; top: 60px; right: 0px;");
-		$("p.navbar-brand").attr("style", "transform:rotateX(360deg);-ms-transform:rotateX(360deg);-webkit-transform:rotateX(360deg);");
       }
     });
 	$( window ).resize(function() {
