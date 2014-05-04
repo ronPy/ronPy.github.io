@@ -48,7 +48,7 @@ footer {
 }
 .navbar-fixed-top .navbar-brand {
 	margin-top: -5px;
-	width:320px;
+	width:328px;
 }
 .navbar-fixed-top .navbar-brand a,
 .navbar-fixed-top .navbar-brand:hover,
@@ -362,9 +362,6 @@ footer {
 	ul {
 		list-style-position:inside;
 		padding:0px;
-	}
-	ul li {	
-
 	}
 	ul ul li {
 		text-indent:5px;
